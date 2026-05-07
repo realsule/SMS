@@ -1,16 +1,19 @@
-# React + Vite
+# School Management System (SMS) - Professional Template
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An elite, reusable School Management System (SMS) built for schools in Kenya and beyond. This project serves as a professional-grade template featuring a React frontend and a Flask backend, designed for scalability and role-based security.
 
-Currently, two official plugins are available:
+## 🚀 The Vision
+This project is an initiative from the **PLP AI Safari** community to build a modular, high-performance system that handles everything from student enrollment to AI-driven performance analytics.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🛠️ Tech Stack
+- **Frontend:** React (Vite), Tailwind CSS, Redux, Axios
+- **Backend:** Flask, Flask-SQLAlchemy (PostgreSQL), JWT Authentication
+- **Database:** PostgreSQL / SQLite (Development)
+- **Deployment:** Render / Railway
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📂 Project Structure
+```text
+SMS/
+├── client/          # React (Vite) Frontend
+├── server/          # Flask Backend API
+└── README.md
